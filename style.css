@@ -1,0 +1,5 @@
+/* CSS Debugging */
+*{
+   outline: 1px solid red;
+   background-color: #ff000020;
+}
