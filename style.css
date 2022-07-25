@@ -1,5 +1,32 @@
 /* CSS Debugging */
 *{
-   outline: 1px solid red;
-   background-color: #ff000020;
+   /* outline: 1px solid red; */
+   /* background-color: #ff000020; */
+}
+
+.bg-pink{
+   background-color: #FEF5FA !important;
+   border: none !important;
+   padding: 15px 0 !important;
+   margin-top: 15px;
+   /* color: #F496D1; */
+}
+
+.card{
+   border: none !important;
+}
+
+#highlighted{
+   background-image: url("https://media.istockphoto.com/videos/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke-video-id1341408852?b=1&k=20&m=1341408852&s=640x640&h=C6ymXpr_Jn6-WqQmHHuS8z6TGBtkWDQ9x6tFs_hsBjs=");
+   background-repeat: no-repeat;
+   background-size: cover; 
+   color: white;
+   border-radius: 10px;
+   position: relative;
+   top: -20px;
+}
+
+#highlighted button{
+   background-color: white !important;
+   margin-bottom: 20px;
 }
